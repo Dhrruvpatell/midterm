@@ -1,0 +1,64 @@
+body {
+    width: 90%;
+    margin: auto;
+    border: 2px solid black;
+    font:16px arial, sans-serif;
+
+}
+.structural {
+    margin: 10px;
+    padding: 10px;
+  }
+  h1{
+    color:aqua;
+    font: arial;
+  }
+  h2{
+    color: aqua;
+    font: arial;
+  }
+  main{
+    height: 70vh;
+  }
+  img { 
+    border: 5px solid black;
+    width: 90%;
+    height: 80%;
+  }
+  figure {
+    background-color: #f0f0f0;
+    width: 45%;
+    height: 60%;
+    margin: auto;
+    padding: 10px;
+  }
+  figure:nth-child(odd) {
+    float: left;
+  }
+  figure:nth-child(even) {
+    float: right;
+
+  }
+  section {
+    clear: both;
+}
+figcaption {
+    font-weight: bold;
+    font-size: 14px;
+    color: red;
+    padding: 5px;
+}
+a {
+    color: rgb(125, 231, 155);
+}
+a:hover {
+    color: rgb(124, 216, 99);
+}
+ul {
+    list-style-type: square;
+    line-height: 1.6;
+}
+header, footer {
+    background-color: lightgray;
+    text-align: center;
+}
